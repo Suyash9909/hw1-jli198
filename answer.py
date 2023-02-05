@@ -119,7 +119,7 @@ def dictionary_nested():
     #   "jobs" => ["scientist", "engineer"] (a list)
     #   "age" => 85
 
-    Grace = {"name": {"first_name": "Grace", "last_name": "Hopper"}, "jobs": {"scientist", "engineer"}, "age": 85}
+    Grace = {"name": {"first_name": "Grace", "last_name": "Hopper"}, "jobs": ["scientist", "engineer"], "age": 85}
 
     # Get the value of key "last_name" from the subdictionary of key "name" in dictionary Grace. (aka."Hopper")
 
