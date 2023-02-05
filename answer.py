@@ -104,7 +104,7 @@ def dictionary():
     #   "fruit" => "apple"
     #   "quantity" => 18
     #   "color" => "red"
-    fruit_dict = {"fruit": "apple", "quantity": "18", "color": "red"}
+    fruit_dict = {"fruit": "apple", "quantity": 18, "color": "red"}
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
 
